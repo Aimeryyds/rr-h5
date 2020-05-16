@@ -1,0 +1,104 @@
+	.header{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right:0;
+		padding: 0px 20px 0px 5px;
+		text-align: center;
+		background-color: #111111;
+		color: #FFFFFF;
+		font-size: 16px;
+		line-height: 45px;
+		height: 45px;
+	}
+	
+	.header .back{
+		color: #FFFFFF;
+		margin: 0px 3px;
+		float: left;
+	}
+	
+	.header span{
+		position: absolute;
+    	right: 15px;
+	    font-size: 15px;
+	    color: #ff09af;
+	    cursor: pointer;
+	}
+	
+	.main{
+		background-color: #111111;
+		margin-top: 45px;
+	}
+	
+	.main .row{
+		display: flex;
+	}
+	
+	.main .row .btn{
+		flex: 1;
+		line-height: 72px;
+		text-align: right;
+		display: none;
+	}
+	
+	.main .row .btn em{
+		font-size: 16px;
+		cursor: pointer;
+	}
+	
+	.main .row .pic{
+		flex: 4;
+		padding: 10px;
+		height: 60px;
+		overflow: hidden;
+	}
+	
+	.main .row .pic .imgwrap{
+		border-radius: 5px;
+		height: 70px;
+		overflow: hidden;
+	}
+	
+	.main .row .pic .imgwrap img{
+		width: 100%;
+		display: block;
+	}
+	
+	.main .row .desc{
+		flex: 7;
+		padding: 15px 5px 0px;
+	}
+	
+	.main .row .desc h1{
+		font-size: 16px;
+		color: #FFFFFF;
+		font-weight: normal;
+	}
+	
+	.main .row .desc p{
+		padding: 3px 0px;
+	}
+	
+	.main .panel{
+		position: fixed;
+		display: none;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+	}
+	
+	.main .panel .op{
+		flex: 1;
+		text-align: center;
+		font-size: 16px;
+		line-height: 50px;
+		padding: 0px;
+		background-color: #1D1D1D;
+		cursor: pointer;
+	}
+	
+	.main .panel .op.all{
+		color:#FFFFFF;
+		border-right: 0.5px solid #CCCCCC;
+	}

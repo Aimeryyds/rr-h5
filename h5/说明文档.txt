@@ -1,0 +1,12 @@
+视频H5的文件结构比较简单,只有30个文件左右
+
+入口主文件:index.php
+配置文件:common/config.php
+路由文件:route.php
+views文件夹下为各一级页面和二级页面
+static为页面用到的资源文件夹
+static/js/base.js为所有页面公用的js函数
+static/record.js为部分页面的公用js函数
+static下的其他js文件皆为插件
+static/css/base.css为所有页面的公用样式表
+static/css/record.css为部分页面的公用样式表
